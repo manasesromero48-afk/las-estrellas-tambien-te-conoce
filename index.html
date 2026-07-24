@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Las estrellas también te conocen ✨</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Cormorant+Garamond:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Fondo -->
+    <div id="stars"></div>
+
+    <!-- Pantalla inicial -->
+
+    <section class="hero">
+
+        <h1>Las estrellas también te conocen</h1>
+
+        <p class="subtitle">
+
+            Hay personas que nacen para brillar...
+            y otras que hacen que hasta las estrellas
+            quieran conocerlas.
+
+        </p>
+
+        <button id="startButton">
+            ✨ Comenzar el viaje
+        </button>
+
+    </section>
+
+    <!-- Música -->
+
+<section class="music section">
+
+    <h2>🎵 Nuestra canción</h2>
+
+    <img src="img/portada.jpg" class="cover">
+
+    <audio id="music" controls>
+
+        <source src="music/las-estrellas-tambien-te-conocen.mp3" type="audio/mpeg">
+
+    </audio>
+
+   </section>
+
+    <!-- Galería -->
+
+    <section class="gallery section">
+
+        <h2>📸 Tus recuerdos</h2>
+
+        <div class="photos">
+
+            <img src="img/foto1.jpg">
+
+            <img src="img/foto2.jpg">
+
+            <img src="img/foto3.jpg">
+
+            <img src="img/foto4.jpg">
+
+            <img src="img/foto5.jpg">
+
+            <img src="img/foto6.jpg">
+
+            <img src="img/foto7.jpg">
+
+            <img src="img/collage.jpg">
+
+        </div>
+
+    </section>
+
+    <!-- Universo -->
+
+    <section class="cards section">
+
+        <h2>🌌 El universo de Katling</h2>
+
+        <div class="card-container">
+
+            <div class="card">
+                🌲
+                <h3>Naturaleza</h3>
+                <p>Siempre encuentras paz entre árboles y montañas.</p>
+            </div>
+
+            <div class="card">
+                ⭐
+                <h3>Sueños</h3>
+                <p>Nunca dejas de luchar por aquello que deseas.</p>
+            </div>
+
+            <div class="card">
+                ❤️
+                <h3>Corazón</h3>
+                <p>Tu bondad habla incluso cuando guardas silencio.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Carta -->
+
+    <section class="letter section">
+
+        <h2>💌 Una carta para ti</h2>
+
+        <div id="letter">
+
+        </div>
+
+    </section>
+
+    <!-- Razones -->
+
+    <section class="reason section">
+
+        <h2>✨ Descubre una razón</h2>
+
+        <button id="reasonButton">
+
+            Ver una razón
+
+        </button>
+
+        <p id="reasonText">
+
+            Presiona el botón.
+
+        </p>
+
+    </section>
+
+    <!-- Mensaje oculto -->
+
+    <section class="secret section">
+
+        <button id="secretButton">
+
+            ⭐
+
+        </button>
+
+    </section>
+
+    <!-- Final -->
+
+    <section class="end">
+
+        <h2>
+
+            Feliz cumpleaños Katling
+
+        </h2>
+
+        <p>
+
+            Nunca olvides que las estrellas
+            también te conocen.
+
+        </p>
+
+    </section>
+
+    <!-- Ventana oculta -->
+
+    <div id="secretModal">
+
+        <div class="modal">
+
+            <span id="close">
+
+                ✖
+
+            </span>
+
+            <h2>
+
+                🌠 Encontraste la estrella secreta
+
+            </h2>
+
+            <p>
+
+                Si encontraste este mensaje significa que exploraste
+                cada rincón de este pequeño universo.
+
+                Gracias por existir.
+
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
